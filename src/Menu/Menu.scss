@@ -1,0 +1,22 @@
+@import '../index.scss';
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu__wrapper{
+    background: $black;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 0 20px 0 20px;
+}
+ul li{
+    padding: 15px;
+    padding-right: 10px;
+    a{
+        color:white;
+        text-decoration: none;
+    }
+}

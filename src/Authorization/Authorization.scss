@@ -1,0 +1,23 @@
+@import '../index.scss';
+
+
+form{
+    background-color: #dcdadd;
+    width: 300px;
+    height: 200px;
+    margin:0 auto;
+    margin-top: 15%;
+    padding:10px;
+    input{margin-bottom: 10px;}
+    h1{
+        color:$tblack;
+        text-align: center;
+    }
+    button,input{
+        color:$tblack;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0); 
+    }
+}
+
