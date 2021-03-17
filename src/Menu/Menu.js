@@ -15,6 +15,9 @@ export default function Menu() {
         <li>
           <Link to="/instructor">Инструктора</Link>
         </li>
+        <li>
+          <Link to="/admin">•</Link>
+        </li>
       </ul>
     </nav>
   );  

@@ -2,7 +2,7 @@ import React from 'react';
 import './index.scss';
 import Modal from '../../Modal/ModalApplication';
 
-export default function Home() {
+export default function Home({ addApplication }) {
   return (
     <div className="wrapper__home">
       <div className="school__content">
@@ -10,7 +10,7 @@ export default function Home() {
           src="https://img.incacar.com/cars/Mercedes-Benz/E-Class/2018/4172dfb81ced9f1b38afeb93f54ddf4a.jpg"
           alt="Loading..."
         />
-        <Modal />
+        <Modal addApplication={addApplication} />
         <h1 className="line">Почему нас выбирают?</h1>
         <p className="school__content_p">
           Правильно выбрать хорошую автошколу и преподавателей — это первый шаг к

@@ -1,6 +1,24 @@
 .admin__wrapper{
+    input{
+        padding:10px;
+        margin-bottom: 15px;
+        width: 90%;
+    }
     background: white;
     .admin__body{
+        .exit__modal__sched{
+            transform: translate(-50% -50%);
+            position: absolute;
+            top:-3%;
+            right: 0%;
+            border:none;
+            background: rgba(0,0,0,0);
+            color:black;
+            font-size: 32px;
+            cursor: pointer;
+            height: 45px;
+            width: 45px;
+        }
         button{
             font-weight: bolder;
             padding:15px;
@@ -10,5 +28,33 @@
             border:none;
             border-radius: 10px;
         }
+        .subm__btn{
+                margin-bottom: 1em;
+                margin-top: 10px;
+                width: 86%;
+                height: 50px;
+                background-color: black;
+                color: white;
+                border-radius: 6px;
+                font-size: 12px;
+                font-weight: bold;
+                position: absolute;
+                bottom: 2%;
+                left: 50%;
+                transform: translateX(-50%);
+        }
+    }
+}
+.app__body{
+    display: inline-block;
+    width: 16vw;
+    padding:10px 0;
+    margin-right: 10px;
+    background: #e5e5e5;
+    border-radius: 10px;
+    p{
+        font-size: 16px;
+        color:rebeccapurple;
+        padding-bottom: 5px;
     }
 }
